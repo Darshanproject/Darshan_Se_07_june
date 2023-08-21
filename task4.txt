@@ -1,0 +1,22 @@
+take input from users  10 values 
+
+check that numbers are divisable by 2 ,5 ,10
+
+out put should be like this 
+1 
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+divisable by 2 2 4 6 8 10 
+divisable by 5 5 10 
+divisable by 10 10 
+
+
