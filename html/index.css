@@ -1,0 +1,22 @@
+#box{
+    background-color: burlywood;
+    color: aqua;
+    text-align: center;
+}
+
+#img{
+    height: 450;
+    width: 450;
+    border: 2px solid black;
+    margin-left: 450px;
+    margin-top: 450px;
+    margin-bottom: 450px;
+    
+}
+#box1{
+    padding: 10px;
+    height: 450px;
+    width: 450px;
+    border: 2px sloid black;
+    align-items: center;
+}
