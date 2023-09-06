@@ -1,4 +1,4 @@
-#box{
+/* #box{
     background-color: burlywood;
     color: aqua;
     text-align: center;
@@ -19,4 +19,29 @@
     width: 450px;
     border: 2px sloid black;
     align-items: center;
+} */
+
+p:hover{
+    color: aqua;
+    background-color: antiquewhite;
+}
+p::selection{
+   background-color: yellowgreen;
+}
+/* h1:first-child{
+    color: red;
+} */
+h1::first-letter{
+    color: brown;
+}
+p::first-line{
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
+/* h1::after{
+    content: " Hello";
+} */
+h1::before{
+    content: "Hello ";
 }
