@@ -1,0 +1,22 @@
+ALTER TABLE person RENAME to Darshan;
+
+
+
+UPDATE student SET name="firstname" WHERE id=3;
+
+
+
+SELECT * FROM `student` 
+
+SELECT name FROM `student` 
+
+SELECT id,name,surname,std FROM `student` 
+
+
+SELECT std FROM `student` WHERE std>0 AND std<12;
+
+
+SELECT std FROM `student` WHERE std>8 AND std<12;
+
+
+SELECT id FROM `student` WHERE id>=8 AND id<=12;

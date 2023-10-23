@@ -1,0 +1,39 @@
+INSERT INTO students (name,std)VALUES("Jay",12);
+
+DROP TABLE students;
+
+
+CREATE TABLE Student(
+	id int AUTO_INCREMENT NOT NULL PRIMARY KEY,
+	name varchar(255),
+    surname varchar(255),
+    std int(10)
+);
+
+
+
+INSERT INTO student(name,surname,std)VALUES("Jay","Bharti",12);
+
+
+INSERT INTO student(name,surname,std)VALUES("Meet","Shah",11);
+INSERT INTO student(name,surname,std)VALUES("Harsh","Savala",10);
+INSERT INTO student(name,surname,std)VALUES("Akshil","Shah",12);
+
+
+INSERT INTO student(name,surname,std)VALUES("Mihir","Savala",11),("Karan","Chandria",8);
+
+
+
+upadte table_name cloumn_name set modifi column_name = "DATA"
+
+
+UPDATE student surname SET surname="GADA" WHERE id=5;
+
+
+Delete from table_name  where condtion 
+
+TRUNCATE  student; 
+
+
+
+https://www.tops-int.com/webinar/frontendbackend16-webinar?utm_source=TCS+Webinar&utm_medium=9512714369sg&utm_campaign=Webinar+Registration

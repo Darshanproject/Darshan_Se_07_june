@@ -1,0 +1,39 @@
+SELECT MAX(salary) FROM `darshan` 
+
+SELECT MAX(salary) AS maxsalary FROM `darshan` WHERE 1
+
+SELECT AVG(salary) FROM `darshan`
+
+SELECT SUM(salary) FROM `darshan` 
+
+
+SELECT COUNT(id) AS totalemployee FROM `darshan` 
+
+ALTER TABLE darshan MODIFY id int AUTO_INCREMENT PRIMARY KEY; 
+
+
+
+
+CREATE TABLE emp(
+	id int AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    e_name varchar(20) NOT NULL,
+    surname varchar(30) NOT NULL,
+	Dep varchar(50) NOT NULL,
+    F_key int NOT NULL,
+	FOREIGN KEY (F_key) REFERENCES darshan(id)  
+);
+
+
+
+
+INSERT INTO emp (e_name,surname,Dep,F_key)
+VALUES("Ronak","Shah","IT DEVELOPER", 4),("Dhurvi","Shah","HR",5),
+("Jay","Bharti","Sales",2),("Hardikh","Khosti","IT",3);
+
+INSERT INTO darshan (name,surname,email,salary) VALUES
+("Ronak","Shah","ronak@gamil.com",950000),("Dhurvi","Shah","dhurvi@gmail.com",750000);
+
+
+SELECT o.OrderID, o.OrderDate, c.CustomerName
+FROM Customers AS c, Orders AS o
+WHERE c.CustomerName="Around the Horn" AND c.CustomerID=o.CustomerID;

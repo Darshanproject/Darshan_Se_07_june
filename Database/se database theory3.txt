@@ -1,0 +1,24 @@
+Function are basic building blocks we use 
+function for resablity and to keep 
+our code clean and clear with the help of function 
+we can reuse the same code in 
+different types
+
+
+Syntax:
+data_type fun_name(){
+
+	member function;
+}
+main(){
+fun_name();
+}
+
+1).Function Without Argument Without return type
+2).Function With Argument  Without return type
+3).Function Without Argument  with return type
+4).Function With Argument  With reurn type
+
+
+
+

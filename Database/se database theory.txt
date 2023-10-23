@@ -1,0 +1,30 @@
+CREATE DATABASE jum07;
+
+
+create table table_name(
+	int  column_names
+	cloumn_names
+);
+
+CREATE TABLE students(
+	id int(255),
+    name varchar(255),
+    std int(255)
+);
+
+
+USE  jum07;
+CREATE TABLE person(
+
+	id int(255),
+    name varchar(300),
+    surname varchar(255),
+    email varchar(255)
+);
+
+
+INSERT INTO TABLE_NAME(COLUMN_NAME) VALUES(DATA);
+
+INSERT INTO office (id,name,surname,email) 
+VALUES (1,"Hardik","Koshti","hardik25@gamil.com");
+
